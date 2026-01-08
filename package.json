@@ -1,5 +1,5 @@
 {
-  "name": "cloud-log-analyser-app",
+  "name": "cloud-log-analyzer-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,10 +9,12 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
+    "react-router-dom": "^7.11.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
